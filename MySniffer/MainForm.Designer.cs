@@ -66,6 +66,7 @@
             // 
             this.toolStrip1.AutoSize = false;
             this.toolStrip1.BackColor = System.Drawing.Color.White;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnOpen,
             this.btnSave,
@@ -77,7 +78,7 @@
             this.btnStop});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(812, 40);
+            this.toolStrip1.Size = new System.Drawing.Size(1083, 50);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -106,26 +107,26 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 40);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 50);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(44, 37);
+            this.toolStripLabel1.Size = new System.Drawing.Size(54, 47);
             this.toolStripLabel1.Text = "网卡：";
             // 
             // comDeviceList
             // 
             this.comDeviceList.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
             this.comDeviceList.Name = "comDeviceList";
-            this.comDeviceList.Size = new System.Drawing.Size(300, 40);
+            this.comDeviceList.Size = new System.Drawing.Size(399, 50);
             this.comDeviceList.SelectedIndexChanged += new System.EventHandler(this.comDeviceList_SelectedIndexChanged);
             // 
             // comFilter
             // 
             this.comFilter.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
             this.comFilter.Name = "comFilter";
-            this.comFilter.Size = new System.Drawing.Size(121, 40);
+            this.comFilter.Size = new System.Drawing.Size(160, 50);
             // 
             // btnStart
             // 
@@ -154,7 +155,8 @@
             // 
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 40);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 50);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -165,8 +167,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(812, 473);
-            this.splitContainer1.SplitterDistance = 185;
+            this.splitContainer1.Size = new System.Drawing.Size(1083, 591);
+            this.splitContainer1.SplitterDistance = 231;
+            this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 1;
             // 
             // dataGridPacket
@@ -186,6 +189,7 @@
             this.Column6});
             this.dataGridPacket.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridPacket.Location = new System.Drawing.Point(0, 0);
+            this.dataGridPacket.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridPacket.MultiSelect = false;
             this.dataGridPacket.Name = "dataGridPacket";
             this.dataGridPacket.ReadOnly = true;
@@ -196,7 +200,7 @@
             this.dataGridPacket.ShowCellToolTips = false;
             this.dataGridPacket.ShowEditingIcon = false;
             this.dataGridPacket.ShowRowErrors = false;
-            this.dataGridPacket.Size = new System.Drawing.Size(810, 183);
+            this.dataGridPacket.Size = new System.Drawing.Size(1081, 229);
             this.dataGridPacket.TabIndex = 0;
             this.dataGridPacket.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridPacket_CellMouseDown);
             // 
@@ -241,6 +245,7 @@
             this.splitContainer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
@@ -250,19 +255,20 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.richTextBox1);
-            this.splitContainer2.Size = new System.Drawing.Size(812, 284);
-            this.splitContainer2.SplitterDistance = 397;
+            this.splitContainer2.Size = new System.Drawing.Size(1083, 355);
+            this.splitContainer2.SplitterDistance = 529;
+            this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 0;
             // 
             // treeView1
             // 
-            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView1.ImageIndex = 0;
             this.treeView1.ImageList = this.imageList1;
-            this.treeView1.Location = new System.Drawing.Point(0, 0);
+            this.treeView1.Location = new System.Drawing.Point(0, 136);
+            this.treeView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.treeView1.Name = "treeView1";
             this.treeView1.SelectedImageIndex = 0;
-            this.treeView1.Size = new System.Drawing.Size(395, 282);
+            this.treeView1.Size = new System.Drawing.Size(524, 213);
             this.treeView1.TabIndex = 0;
             // 
             // imageList1
@@ -276,8 +282,9 @@
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(409, 282);
+            this.richTextBox1.Size = new System.Drawing.Size(547, 353);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             this.richTextBox1.WordWrap = false;
@@ -288,9 +295,10 @@
             this.checkBox1.BackColor = System.Drawing.Color.White;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(638, 12);
+            this.checkBox1.Location = new System.Drawing.Point(851, 15);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(72, 16);
+            this.checkBox1.Size = new System.Drawing.Size(89, 19);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "混杂模式";
             this.checkBox1.UseVisualStyleBackColor = false;
@@ -298,13 +306,14 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(812, 513);
+            this.ClientSize = new System.Drawing.Size(1083, 641);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.toolStrip1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainForm";
             this.Text = "mySniffer";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);

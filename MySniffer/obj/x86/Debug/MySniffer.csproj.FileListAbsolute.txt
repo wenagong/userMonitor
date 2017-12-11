@@ -26,3 +26,12 @@ D:\Documents\Visual Studio 2017\Projects\MySniffer\MySniffer\obj\x86\Debug\MySni
 D:\Documents\Visual Studio 2017\Projects\MySniffer\MySniffer\obj\x86\Debug\MySniffer.pdb
 D:\information_security\userMonitor\MySniffer\obj\x86\Debug\MySniffer.exe
 D:\information_security\userMonitor\MySniffer\obj\x86\Debug\MySniffer.pdb
+D:\information_security\userMonitor\MySniffer\obj\x86\Debug\MySniffer.csprojResolveAssemblyReference.cache
+D:\information_security\userMonitor\MySniffer\obj\x86\Debug\MySniffer.MainForm.resources
+D:\information_security\userMonitor\MySniffer\obj\x86\Debug\MySniffer.Properties.Resources.resources
+D:\information_security\userMonitor\MySniffer\obj\x86\Debug\MySniffer.csproj.GenerateResource.Cache
+D:\information_security\userMonitor\MySniffer\bin\Debug\MySniffer.exe
+D:\information_security\userMonitor\MySniffer\bin\Debug\MySniffer.pdb
+D:\information_security\userMonitor\MySniffer\bin\Debug\SharpPcap.pdb
+D:\information_security\userMonitor\MySniffer\bin\Debug\SharpPcap.xml
+D:\information_security\userMonitor\MySniffer\bin\Debug\TwzyProtocol.pdb
